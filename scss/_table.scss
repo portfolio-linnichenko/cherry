@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead  {
+	tr {
+    background: #9B4757;
+    color: #fff;
+}
+}
+tbody {
+    background: #282D33;
+    color: #A1A9B3;
+}
+td {
+    padding: 9px;
+    border: 1px solid #A4A9AD;
+}
+tfoot {
+	background: #282D33;
+	color: #A1A9B3;
+}
+
+tr {
+    td {
+        font-size: 16px;
+    }
+}
+

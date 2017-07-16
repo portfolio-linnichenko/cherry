@@ -1,0 +1,179 @@
+.footer_wrapper {
+    border-top: 5px solid #ae4b5d;
+    background: url('../images/bg2.png');
+    min-height: 230px;
+}
+
+thead tr {
+    background:#9B4757;
+	color:#fff;
+}
+tbody{
+	background:#282D33;
+	color:#A1A9B3;
+}
+
+tfoot tr {
+   background:#282D33;
+   color:#A1A9B3;
+}
+
+td {
+    padding: 9px;
+    border: 1px solid #A4A9AD;
+}
+.footer {
+
+}
+.footer {
+	max-width: 980px;
+    margin: 0 auto;
+	padding-top:33px;
+}
+
+.fot-block {
+	.nav-f {
+
+		// list-style-image: url('../images/clock.png');
+	.red {
+	content:"";
+    color: #868990;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    list-style-type: none;
+    background: url("../images/clock.png") 0px 3px no-repeat;
+    background-position: center left;
+    line-height: 1.4;
+}
+}
+}
+
+
+.fot-block {
+	width:300px;
+	float:left;
+	padding-left:10px;
+	
+}
+.hat-fot {
+	color:#9999cc;
+	font-size:18px;
+	font-family:  Arial, sans-serif;
+	margin-bottom:12px;
+	border-bottom:1px solid #171c1f;
+	padding-bottom:8px;
+	 box-shadow:  0 1px  0  0 rgba(66,70,79,0.5);
+	 width:272px;
+}
+.are {
+	color: #868990;
+	font-size:12px;
+	font-family:  Arial, sans-serif;
+	font-weight:300;
+	 width:100%;
+	 margin-bottom:15px;
+}
+.are-red {
+	float:left;
+	color: #868990;
+	font-size:12px;
+	font-family:  Arial, sans-serif;
+	font-weight:300;
+	 margin-bottom:12px;
+	 padding-left:3px;
+}
+.battons,.battons2 {
+	
+}
+.battons a {
+	display:block;
+	width:20px;
+	height:20px;
+	background:url("../images/sprite.png");
+	background-position:-48px 0;
+	float:left;
+	margin-left:6px;
+}
+ .battons:last-child {
+	margin-bottom:10px;
+}
+.cirk-bg {
+	width:15px;
+	float:left;
+	margin-top:-1px;
+}
+.cirk {
+	display:block;
+	text-align:center;
+	padding:0;
+	margin-bottom:2px;
+}
+.cirk:before  {
+	
+	color: #9c475a; /* Цвет маркера */
+	content: "\2022 "; /* Сам маркер в формате юникод */
+	font-size: 21px;
+	padding-right: px;
+	top:1px;
+	
+	
+	
+}
+.west {
+	width:202px;
+	float:left;
+	float: left;
+color: #85898F;
+font-size: 12px;
+font-family: Arial, sans-serif;
+font-weight: 400;
+margin-left:6px;
+line-height: 1;
+}
+
+.nav-foot {
+	.west::before {
+	    content: "\2022";
+	    color: #9c475a;
+        margin-right: 10px;
+        font-size: 24px;
+        vertical-align: middle;
+        padding-bottom: 2px;
+    	display: inline-block;
+}
+}
+
+.lv{
+	display-inline:block;
+	padding-bottom:1px;
+	
+}
+.are-red2 {
+	color: #868990;
+	font-size:12px;
+	font-family:  Arial, sans-serif;
+	font-weight:300;
+	 margin-bottom:12px;
+	 padding-left:3px;
+}
+
+.info {
+	color:#CF8B98;
+	text-decoration:underline;
+	
+}
+.info:hover {
+	text-decoration:none;
+}
+footer .fot-block {
+	margin-right:40px;
+}
+footer .fot-block:last-child {
+	margin-right:0;
+}
+

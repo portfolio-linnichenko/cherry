@@ -1,0 +1,19 @@
+@import "_header.scss";
+@import "_content.scss";
+@import "_navigation.scss";
+@import "_breadcrumbs.scss";
+@import "_wrapper-content.scss";
+@import "_title-content.scss";
+@import "_table.scss";
+@import "_footer.scss";
+@import "_media.scss";
+
+
+.main {
+    overflow: hidden;
+    background: #e0e1e4;
+}
+.wrapper {
+	max-width: 980px;
+	margin:0 auto;
+}
