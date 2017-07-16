@@ -200,17 +200,17 @@
   color: #CF8B96;
 }
 
-.breadcrumbs .breadcrumbs-nav .bread-a:visited {
-  color: red;
+.breadcrumbs .breadcrumbs-nav .bread-a:focus {
+  color: #b9b6b6;
 }
 
 .breadcrumbs .breadcrumbs-nav .bread-a:hover {
   text-decoration: none;
-  color: green;
+  color: blue;
 }
 
 .breadcrumbs .breadcrumbs-nav .bread-a:active {
-  color: #2612cc;
+  color: red;
   text-decoration: none;
 }
 

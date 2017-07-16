@@ -10,25 +10,6 @@
     	margin: 0 5px
 }
 }
-// 	.bread-a {
-// 		text-decoration: underline;
-// 		color: #CF8B96;
-// 		&:link {
-// 		color:#CF8B96;
-// }
-// 		&:visited {
-// 		color:#b9b6b6;
-// }
-// 		&:hover {
-// 		text-decoration: none;
-// 		color:#f70a30;
-// }
-// 		&:active {
-// 		color:#2612cc;
-// 		text-decoration: none;
-// }
-// }
-// }
 
 .bread-a {
 		text-decoration: underline;
@@ -36,29 +17,18 @@
 		&:link {
 		color:#CF8B96;
 }
-		&:visited {
-			color:red;
+		&:focus {
+		color:#b9b6b6;;
 }
 
 		&:hover {
 		text-decoration: none;
-		color:green;
+		color:blue;
 }
 		&:active {
-		color:#2612cc;
+		color:red;
 		text-decoration: none;
 }
 }
-
-// .bread-a {
-// &:link          {color:#e5efe5}
-// &:visited       {color:red}
-// &:hover         {color:blue}
-// &:visited:hover {color:green}
-// &:focus         {color:#004DC0}
-// &:visited:focus {color:#fff700}
-// &:active        {color:black}
-// }
-
 }
 }
