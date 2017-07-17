@@ -1,3 +1,33 @@
+.content {
+	background: #fff;
+	padding:20px;
+}
+
+.content-wrapper {
+	padding: 20px;
+	background: #fff;
+}
+
+.content-title {
+	max-width: 730px; 
+	padding-left: 26px;
+	box-sizing: border-box;
+	float: left; 
+	overflow: hidden;
+	padding-top: 18px;
+	padding-right: 3px;
+}
+.content-introduction {
+	max-width: 728px;
+}
+.content-text {
+		max-width: 728px;
+    color: #666666;
+    font-size: 14px;
+    font-family: "font-family", Geneva, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
 .clearfix {
   &:before,
   &:after {

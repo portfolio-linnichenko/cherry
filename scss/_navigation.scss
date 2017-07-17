@@ -13,6 +13,15 @@
  	display: inline-block;
     font-size: 16px;
     border-left: 1px solid #fff;
+    background: #95161f;
+    &:link {
+    background: #95161f;
+    transition: all 0.3s;    
+    }
+    &>:focus {
+    background: linear-gradient(to top, #48565d, #6364ff);;
+    transition: all 0.3s;
+    }
     &:hover {
         background: #6364ff;
         transition: all 0.3s;
@@ -21,12 +30,17 @@
     background: #6364ff;
     transition: all 0.3s;
     }
-
-&>.sub-a{
+&>.link{
 	display: block;
 	color:#fff;
     padding: 10px 20px 10px 20px;
     font-weight: 900;
+    &:hover {
+        color:#95161f;
+}
+    &:focus {
+    color:black;
+}
 }
 .submenu {
  	position: absolute;

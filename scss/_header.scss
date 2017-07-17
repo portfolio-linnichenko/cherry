@@ -1,17 +1,13 @@
-.main {
-	overflow: hidden;
-	background: #e0e1e4;
-}
-.header-wrapper {
-	margin:0 auto;
-	padding:0 5px 0 5px;
-}
 .header {
-	margin: 0 -9999px;
-	padding: 0 9999px;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	background: linear-gradient( to top, #48565d, #6364ff);
+    margin: 0 -9999px;
+    padding: 0 9999px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: linear-gradient( to top, #48565d, #6364ff);
+}
+.header-inner {
+    margin:0 auto;
+    padding:0 5px 0 5px;
 }
 .logo-wrapper {
 	font-weight: 900;
@@ -21,15 +17,14 @@
 	text-transform: uppercase;
 }
 .main-title {
-
-	font-weight: 700;
+    font-weight: 700;
 	font-size: 30px;
 	color: #a5adb8;
 	span {
 		color: #ae4b5d;
-	}
 }
-.logo-inner {
+}
+.title-logo {
 	display: block;
 	color: #656f7a;
 	font-size: 12px;
@@ -39,16 +34,7 @@
 	margin-right: 15px;
 }
 
-.clearfix {
-  &:before,
-  &:after {
-    content: " "; 
-    display: table; 
-  }
-  &:after {
-    clear: both;
-  }
-}
+
  .search-input {
     background: #24272d;
     border-radius: 7px;

@@ -1,12 +1,8 @@
-.wrapper-content {
-	padding: 20px;
-	background: #fff;
-}
 .aside {
 	width: 210px;
 	float:left;
 }
-.contact-form-bg {
+.aside-form{
     background: #f3f3f3;
     border: 1px solid #d8dbde;
     padding: 17px 12px;
@@ -19,7 +15,7 @@
     background: #e3e4e5;
     width: 185px;
 }
-.m-contact-form {
+.form-name {
     width: 100px;
 }
 .contact-title {
@@ -27,18 +23,6 @@
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 20px;
-}
-.contact-select_wrapp::after {
-    content: "";
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    margin-top: -4px;
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 8px solid #989da1;
 }
 .contact-submit {
     background: #a8202a;
@@ -50,13 +34,14 @@
     text-align: center;
     cursor: pointer;
 }
-.soc {
+.head-aside {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-top: 27px;
     margin-bottom: 14px;
+    display: block;
 }
-.lorem {
+.title-aside {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #666666;
@@ -66,6 +51,7 @@
     color: #CF8B96;
     text-decoration: underline;
     &:hover {
-    	text-decoration: none;
-    }
+	text-decoration: none;
 }
+}
+
